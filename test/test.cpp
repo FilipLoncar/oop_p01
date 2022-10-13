@@ -29,7 +29,7 @@ public:
 
 		Assert::AreEqual(1000., f1(10, 3));
 	}
-	/*
+	
 	TEST_METHOD(test_2)
 	{
 		Assert::IsFalse(f2(1 < 2));
@@ -37,7 +37,7 @@ public:
 		auto ret = f2(1 == 1);
 		Assert::AreEqual(1ull, sizeof(ret));
 	}
-
+	/*
 	TEST_METHOD(test_3)
 	{
 		Assert::AreEqual(20, f3(2, 4, 6, 8));

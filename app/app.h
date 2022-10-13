@@ -10,5 +10,6 @@ namespace vsite::oop::p1
 */
 
 	double f1(int a, int b);
+	bool f2(bool a);
 
 }

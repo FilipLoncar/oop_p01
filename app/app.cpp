@@ -11,4 +11,8 @@ namespace vsite::oop::p1 {
 		return pow(a, b);
 	}
 
+	bool f2(bool a) {
+		return !a;
+	}
+
 } // namespace
