@@ -53,7 +53,7 @@ public:
 		Assert::AreEqual("bool", f4(true).c_str());
 		Assert::AreEqual("double", f4(1.25).c_str());
 	}
-	/*
+	
 	TEST_METHOD(test_5)
 	{
 		std::string s = "root";
@@ -70,7 +70,7 @@ public:
 		Assert::IsTrue(f5(s, 47));
 		Assert::AreEqual("root1357", s.c_str());
 	}
-
+	/*
 	TEST_METHOD(test_6)
 	{
 		{

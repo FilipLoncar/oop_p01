@@ -29,4 +29,14 @@ namespace vsite::oop::p1 {
 		return "double";
 	}
 
+	bool f5(std::string& s, int a)
+	{
+		if (a <= 0)
+			return false;
+		s += std::to_string(a % 10);
+			return true;
+	}
+
+
+
 } // namespace

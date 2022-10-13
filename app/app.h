@@ -17,5 +17,6 @@ namespace vsite::oop::p1
 	std::string f4(bool a);
 	std::string f4(double a);
 
+	bool f5(std::string& s, int a);
 
 }
