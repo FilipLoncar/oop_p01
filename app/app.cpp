@@ -37,6 +37,11 @@ namespace vsite::oop::p1 {
 			return true;
 	}
 
+	void f6(int a, int b, std::ostream& os)
+	{
+		os << a <<"\n" <<b;
+	}
+
 
 
 } // namespace

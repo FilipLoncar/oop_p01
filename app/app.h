@@ -19,4 +19,6 @@ namespace vsite::oop::p1
 
 	bool f5(std::string& s, int a);
 
+	void f6(int a, int b, std::ostream& os);
+
 }
