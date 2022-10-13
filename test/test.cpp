@@ -46,14 +46,14 @@ public:
 		Assert::AreEqual(29, f3(20));
 		Assert::AreEqual(10, f3());
 	}
-	/*
+	
 	TEST_METHOD(test_4)
 	{
 		Assert::AreEqual("int", f4(55).c_str());
 		Assert::AreEqual("bool", f4(true).c_str());
 		Assert::AreEqual("double", f4(1.25).c_str());
 	}
-
+	/*
 	TEST_METHOD(test_5)
 	{
 		std::string s = "root";

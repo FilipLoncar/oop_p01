@@ -19,4 +19,14 @@ namespace vsite::oop::p1 {
 		return a + b + c + d;
 	}
 
+	std::string f4(int a) {
+		return "int";
+	}
+	std::string f4(bool a) {
+		return "bool";
+	}
+	std::string f4(double a) {
+		return "double";
+	}
+
 } // namespace
