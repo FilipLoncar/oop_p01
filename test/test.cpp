@@ -29,6 +29,7 @@ public:
 
 		Assert::AreEqual(1000., f1(10, 3));
 	}
+	/*
 	TEST_METHOD(test_2)
 	{
 		Assert::IsFalse(f2(1 < 2));
@@ -82,7 +83,7 @@ public:
 			f6(-8, 18, ss);
 			Assert::AreEqual("-8\n18", ss.str().c_str());
 		}
-	}
+	}*/
 };
 
 } // namespace
